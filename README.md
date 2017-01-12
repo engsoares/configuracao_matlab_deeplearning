@@ -52,11 +52,13 @@ Passo 10: No Matlab, digite o comando abaixo para adicionar a variável de sess�
 Diferentemente da variável de ambiente no windows, não coloque o diretório \BIN no comando acima, senão o MEX não encontrará o compilador GCC.exe.
 
 Passo 11: Digite novamente o comando no matlab: 
+	
 	mex -setup
 	
 Você deverá receber a mensagem abaixo de que o MEX encontrou o compilador C.
 
 Passo 12: Verifique se voçê tem uma GPU em seu computador, caso sim execute o comando abaixo para instalar o framework:
+	
 	vl_compilenn()
 	
 Caso não tenha GPU e deseja usar apenas a CPU digite o comando abaixo
@@ -64,3 +66,7 @@ Caso não tenha GPU e deseja usar apenas a CPU digite o comando abaixo
 	vl_compilenn('EnableGpu',false)
 
 Você deverá receber a mensagem de "MEX completed successfully."
+
+Passo 13: Instale com o comando:
+
+	vl_setupnn
