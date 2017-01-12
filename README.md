@@ -29,8 +29,9 @@ Passo 7.1: Acesse o site https://sourceforge.net/projects/mingw-w64/files/ e fa�
 
 IMPORTANTE: Na tela de opções de instalação, escolha a versão de 64 bits conforme tela abaixo e altere o diretório de instalação de modo a não conter espaço nos nomes das pastas. Coloque algum caminho fácil, como por exemplo, C:\mingw-w64\ 
 
-![Alterando a versão para 64 bits](/imagens/instalacaomingw.png)
-![Alterando o diretório de instalação](imagens/instalacaomingw.png)
+![Alterando a versão para 64 bits](instalacaomingw.png)
+
+![Alterando o diretório de instalação](instalacaomingw2.png)
  
 Passo 8: Reinicie o sistema operacional. Abra o terminal do DOS e verifique, digite o comando "gcc" e verifique se o compilador foi reconhecido. Caso não, verifique se o diretório foi adicionado as variáveis de ambiente.
 Caso não esteja, você precisa adicionar manualmente o diretório de instalação do minGW (no meu caso ele está no diretório C:\mingw64\mingw64\bin\ " na variável de ambiente PATH
