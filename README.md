@@ -1,5 +1,5 @@
-# configuracao_matlab_deeplearning
-Configuração do ambiente Matlab para uso do framework MatConvNet (deep learning)
+# Configuração do ambiente Matlab para uso do framework MatConvNet (deep learning)
+
 
 Passo 1: Faça o download da última do MatConvNet versão no site: http://www.vlfeat.org/matconvnet/
 
